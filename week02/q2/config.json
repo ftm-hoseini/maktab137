@@ -1,0 +1,13 @@
+{
+  "database_url": {
+    "host": "localhost",
+    "port": 3306,
+    "username": "root",
+    "password": "1234"
+  },
+  "api_keys": {
+    "service1": "abc123",
+    "service2": "xyz456"
+  },
+   "mode": "debug"
+}
