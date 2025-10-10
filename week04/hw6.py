@@ -8,4 +8,4 @@ def check_string(string1: str, string2: str):
 
     return counter
 
-print(check_string("aBcD", "ABcd"))
+print(check_string("aBcD" , "ABcd"))
