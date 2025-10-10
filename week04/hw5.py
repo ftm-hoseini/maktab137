@@ -18,8 +18,8 @@ def file_io(func):
 def process_data(data):
     return data.upper()
 
-user_input = "hi i am fe. just fe!"
+user_input = "i am fe. just fe!"
 
-print(process_data(user_input))
+process_data(user_input)
 
 
