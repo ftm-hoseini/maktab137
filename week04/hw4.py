@@ -12,6 +12,6 @@ def sum_nested_list(my_list):
         
     
 nested_list =[1, [2, 3], [4, [5]]]
-res = sum_nested_list(nested_list)
-res = sum(res)
-print(res)
+new_list = sum_nested_list(nested_list)
+sum_list = sum(new_list)
+print(sum_list)
