@@ -26,5 +26,5 @@ def calculator(first_number, second_number, /, *, operator):
     elif operator == "/":
         return first_number / second_number
     
-print(calculator(2 , 10, operator = "*" ))
+print(calculator(2 , 10, operator= "*" ))
     
