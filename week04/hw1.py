@@ -14,6 +14,6 @@ def restrict_hour(start, end):
 
 @restrict_hour(start=22, end=24)
 def do_work():
-    print("Working...")
+    print("Working... ")
 
 do_work()
