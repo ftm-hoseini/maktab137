@@ -13,7 +13,7 @@ def len_string(func):
 
         len_arguments = list(map(len, args))
         print(len_arguments)
-        return func(*args) 
+        return func(*args)
       
     return wrapper
 
@@ -21,7 +21,7 @@ def len_string(func):
 @convert_to_string
 @len_string
 def data(name, age):
-    print(name +"\t"+ age)
+    print(name + "\t" + age)
 
 data("Fatemeh", 24)
 
